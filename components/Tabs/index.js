@@ -25,6 +25,10 @@ function tabCreator() {
       tab.classList.add('tab')
       tab.textContent = topic;
       getTopicsDiv.appendChild(tab)
+
+      tab.addEventListener('click', event => {
+         tab.classList.toggle('active-tab')
+      })
    }
 
 }
