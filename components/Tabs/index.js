@@ -11,7 +11,6 @@ function tabCreator() {
    const getTopicsDiv = document.querySelector('.topics')
    axios.get('https://lambda-times-backend.herokuapp.com/topics')
       .then(response => {
-         console.log(response)
          response.data.topics.forEach(topic => {
             createTab(topic)
          })
@@ -33,4 +32,4 @@ function tabCreator() {
 
 }
 
-tabCreator()
+// tabCreator()
