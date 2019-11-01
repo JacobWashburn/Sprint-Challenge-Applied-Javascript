@@ -46,7 +46,7 @@ so that we could loop over it.
 
 5. What is a component?
 
-it is a piece of a product.
+it is a piece of a product that can be reused over and over.
 
 ### Git Set up
 
