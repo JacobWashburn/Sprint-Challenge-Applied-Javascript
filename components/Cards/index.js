@@ -48,17 +48,6 @@ axios.get(' https://lambda-times-backend.herokuapp.com/articles')
 
 function articleCreator(data) {
 
-   // const create = el => {
-   //    document.createElement(el)
-   // }
-
-
-
-
-
-
-
-   console.log(data)
    const card = document.createElement('div');
    card.classList.add('card');
 
